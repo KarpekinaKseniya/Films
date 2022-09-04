@@ -1,0 +1,16 @@
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (1, 'Barys', 'Castro', '1963-01-14');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (2, 'Gavrel', 'Schröder', '1960-12-08');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (3, 'Hafiz', 'Tong', '1963-09-24');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (4, 'Raphael', 'Abdullah', '1967-09-07');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (5, 'Madilynn', 'Panza', '1968-11-07');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (6, 'Teodosija', 'Järvinen', '1970-11-30');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (7, 'Takouhi', 'Sokol', '1971-09-29');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (8, 'Adriana', 'Haig', '1972-06-02');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (9, 'Abhinav', 'Babić', '1973-04-18');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (10, 'Villum', 'Deniau', '1974-09-23');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (11, 'Karin', 'Luna', '1976-10-01');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (12, 'Vasilija', 'Schuler', '1976-11-30');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (13, 'Aldreda', 'Matějka', '1978-12-12');
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (14, 'Solvig', 'Engel', '1960-03-04');
+-- one of the directors has not yet released a single film
+INSERT INTO director (id, first_name, last_name, birth_date) VALUES (15, 'Sridevi', 'Spitznagel', '1960-05-27');
