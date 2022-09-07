@@ -4,6 +4,7 @@ plugins {
     id("org.springframework.boot") version "2.7.3"
     id("io.spring.dependency-management") version "1.0.12.RELEASE"
     kotlin("jvm") version "1.7.10"
+    id("org.jetbrains.kotlin.plugin.jpa") version "1.7.10"
 }
 
 group = "remake.better.godel.mastery"
