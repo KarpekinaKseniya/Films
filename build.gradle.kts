@@ -15,11 +15,14 @@ repositories {
     mavenCentral()
 }
 
+val swaggerVersion = "1.6.11"
+
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.flywaydb:flyway-core")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.springdoc:springdoc-openapi-ui:$swaggerVersion")
     runtimeOnly("org.postgresql:postgresql")
 
     testImplementation(kotlin("test"))
