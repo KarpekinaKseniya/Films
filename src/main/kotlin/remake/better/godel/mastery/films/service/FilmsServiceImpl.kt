@@ -7,14 +7,14 @@ import remake.better.godel.mastery.films.api.FilmsResponse
 import remake.better.godel.mastery.films.api.SearchRequest
 import remake.better.godel.mastery.films.domain.Films
 import remake.better.godel.mastery.films.repository.FilmsRepository
-import remake.better.godel.mastery.films.specification.FilmsSpecification
+import remake.better.godel.mastery.films.specification.BaseSpecification
 import remake.better.godel.mastery.films.transformer.FilmsTransformer
 
 @Service
 class FilmsServiceImpl(
     private val filmsRepository: FilmsRepository,
     private val filmsTransformer: FilmsTransformer,
-    private val filmsSpecification: FilmsSpecification
+    private val filmsSpecification: BaseSpecification
 ) : FilmsService {
 
     override fun findAllFilmsBySpecification(search: SearchRequest, page: Int, size: Int): Page<FilmsResponse> {

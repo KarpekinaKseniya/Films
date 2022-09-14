@@ -14,6 +14,7 @@ import remake.better.godel.mastery.films.api.ErrorResponse
 import remake.better.godel.mastery.films.api.FilmsResponse
 import remake.better.godel.mastery.films.api.SearchRequest
 import remake.better.godel.mastery.films.service.FilmsService
+import javax.validation.Valid
 
 @RestController
 @RequestMapping("/v1/films")
@@ -38,7 +39,7 @@ class FilmsResource(private val filmsService: FilmsService) {
     //@formatter:on
     @GetMapping
     fun getAllFilms(
-        request: SearchRequest,
+        @Valid request: SearchRequest,
         @RequestParam(value = "page", defaultValue = "0", required = false) page: Int,
         @RequestParam(value = "size", defaultValue = "5", required = false) size: Int
     ): ResponseEntity<Page<FilmsResponse>> {

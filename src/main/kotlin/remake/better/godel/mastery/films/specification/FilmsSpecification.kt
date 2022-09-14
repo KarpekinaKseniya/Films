@@ -9,9 +9,9 @@ import remake.better.godel.mastery.films.domain.Films
 import java.time.LocalDate
 
 @Component
-class FilmsSpecification {
+class FilmsSpecification : BaseSpecification {
 
-    fun toSpecification(criteria: SearchRequest): Specification<Films> {
+    override fun toSpecification(criteria: SearchRequest): Specification<Films> {
         return Specification<Films> { root, query, criteriaBuilder ->
             where(likeLastName(criteria.lastName))
                 .and(afterYearOrEqual(criteria.releasedFrom))
