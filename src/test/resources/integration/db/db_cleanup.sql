@@ -1,0 +1,2 @@
+DELETE FROM film;
+DELETE FROM director;

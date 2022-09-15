@@ -1,0 +1,5 @@
+{
+  "statusCode": 400,
+  "message": "Released From should be more than 1800, Released Until should be more than 1800",
+  "description": "uri=/v1/films"
+}

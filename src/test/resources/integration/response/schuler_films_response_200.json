@@ -1,0 +1,45 @@
+{
+  "content": [
+    {
+      "directorFirstName": "Gavrel",
+      "directorLastName": "Schuler",
+      "directorBirthDate": "1960-12-08",
+      "filmName": "Beasts and Ghosts",
+      "filmReleaseDate": "1997-12-12",
+      "filmGenre": "HORROR"
+    },
+    {
+      "directorFirstName": "Gavrel",
+      "directorLastName": "Schuler",
+      "directorBirthDate": "1960-12-08",
+      "filmName": "Dog of Tomorrow",
+      "filmReleaseDate": "1998-01-16",
+      "filmGenre": "HUMOR"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "empty": true,
+      "sorted": false,
+      "unsorted": true
+    },
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 5,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": true,
+  "totalPages": 1,
+  "totalElements": 2,
+  "size": 5,
+  "number": 0,
+  "sort": {
+    "empty": true,
+    "sorted": false,
+    "unsorted": true
+  },
+  "first": true,
+  "numberOfElements": 2,
+  "empty": false
+}
