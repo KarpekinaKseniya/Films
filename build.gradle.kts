@@ -19,6 +19,7 @@ repositories {
 val swaggerVersion = "1.6.11"
 val jupiterVersion = "5.9.0"
 val hamcrestVersion = "1.3"
+val restAssuredVersion ="5.2.0"
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
@@ -33,6 +34,8 @@ dependencies {
     testImplementation(kotlin("test"))
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.hamcrest:hamcrest-all:$hamcrestVersion")
+    testImplementation("uk.co.datumedge:hamcrest-json:0.2")
+    testImplementation("io.rest-assured:kotlin-extensions:$restAssuredVersion")
 }
 
 tasks.withType<KotlinCompile> {

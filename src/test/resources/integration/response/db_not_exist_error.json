@@ -1,0 +1,5 @@
+{
+  "statusCode": 500,
+  "message": "could not prepare statement; SQL [select films0_.id as id1_1_, films0_.director_id as director5_1_, films0_.genre as genre2_1_, films0_.name as name3_1_, films0_.release_date as release_4_1_ from film films0_ where ?=true and ?=true and ?=true limit ?]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement",
+  "description": "uri=/v1/films"
+}

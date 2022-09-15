@@ -1,0 +1,53 @@
+{
+  "content": [
+    {
+      "directorFirstName": "Barys",
+      "directorLastName": "Castro",
+      "directorBirthDate": "1963-01-14",
+      "filmName": "Foreigner Puzzle",
+      "filmReleaseDate": "2001-03-15",
+      "filmGenre": "DRAMA"
+    },
+    {
+      "directorFirstName": "Barys",
+      "directorLastName": "Castro",
+      "directorBirthDate": "1963-01-14",
+      "filmName": "Monument Without a Leader",
+      "filmReleaseDate": "2001-03-15",
+      "filmGenre": "FANTASY"
+    },
+    {
+      "directorFirstName": "Gavrel",
+      "directorLastName": "Schuler",
+      "directorBirthDate": "1960-12-08",
+      "filmName": "Celebrate the West",
+      "filmReleaseDate": "2003-06-10",
+      "filmGenre": "MYSTERY"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "empty": true,
+      "sorted": false,
+      "unsorted": true
+    },
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 5,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": true,
+  "totalPages": 1,
+  "totalElements": 3,
+  "size": 5,
+  "number": 0,
+  "sort": {
+    "empty": true,
+    "sorted": false,
+    "unsorted": true
+  },
+  "first": true,
+  "numberOfElements": 3,
+  "empty": false
+}

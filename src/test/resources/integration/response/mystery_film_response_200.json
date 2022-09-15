@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "directorFirstName": "Gavrel",
+      "directorLastName": "Schuler",
+      "directorBirthDate": "1960-12-08",
+      "filmName": "Celebrate the West",
+      "filmReleaseDate": "2003-06-10",
+      "filmGenre": "MYSTERY"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "empty": true,
+      "unsorted": true,
+      "sorted": false
+    },
+    "offset": 0,
+    "pageSize": 5,
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 1,
+  "totalElements": 1,
+  "last": true,
+  "size": 5,
+  "number": 0,
+  "sort": {
+    "empty": true,
+    "unsorted": true,
+    "sorted": false
+  },
+  "numberOfElements": 1,
+  "first": true,
+  "empty": false
+}
