@@ -1,6 +1,8 @@
 package remake.better.godel.mastery.films.domain
 
-enum class Genres(val title: String) {
+import com.fasterxml.jackson.annotation.JsonValue
+
+enum class Genres(@JsonValue val title: String) {
     ADVENTURE("Adventure"),
     DRAMA("Drama"),
     FANTASY("Fantasy"),
