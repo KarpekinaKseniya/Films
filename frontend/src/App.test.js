@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
+import {render} from '@testing-library/react';
+import {createMemoryHistory} from 'history';
 import App from './App';
 
 test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+    const history = createMemoryHistory({initialEntries: ['/films']});
+    render(<App/>);
+    expect(history.location.pathname).toBe('/films');
 });
