@@ -6,7 +6,7 @@
       "directorBirthDate": "1960-12-08",
       "filmName": "Beasts and Ghosts",
       "filmReleaseDate": "1997-12-12",
-      "filmGenre": "HORROR"
+      "filmGenre": "Horror"
     },
     {
       "directorFirstName": "Gavrel",
@@ -14,7 +14,7 @@
       "directorBirthDate": "1960-12-08",
       "filmName": "Dog of Tomorrow",
       "filmReleaseDate": "1998-01-16",
-      "filmGenre": "HUMOR"
+      "filmGenre": "Humor"
     }
   ],
   "pageable": {

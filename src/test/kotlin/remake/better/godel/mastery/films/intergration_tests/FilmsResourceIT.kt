@@ -30,14 +30,12 @@ class FilmsResourceIT {
     @Value("\${local.server.port}")
     private var port: Int = 0
 
+    //@formatter:off
     companion object {
         @JvmStatic
         fun data(): List<Arguments> = listOf(
             Arguments.of(mapOf("lastName" to null), "all_films_response_200.json"),
-            Arguments.of(
-                mapOf("lastName" to "Schuler", "releasedFrom" to "2000", "releasedUntil" to "2005"),
-                "mystery_film_response_200.json"
-            ),
+            Arguments.of(mapOf("lastName" to "Schuler", "releasedFrom" to "2000", "releasedUntil" to "2005"), "mystery_film_response_200.json"),
             Arguments.of(mapOf("lastName" to "Castro"), "castro_films_response_200.json"),
             Arguments.of(mapOf("releasedFrom" to "2000"), "after_2000_films_response_200.json"),
             Arguments.of(mapOf("releasedUntil" to "1998"), "schuler_films_response_200.json"),

@@ -6,7 +6,7 @@
       "directorBirthDate": "1963-01-14",
       "filmName": "Foreigner Puzzle",
       "filmReleaseDate": "2001-03-15",
-      "filmGenre": "DRAMA"
+      "filmGenre": "Drama"
     },
     {
       "directorFirstName": "Barys",
@@ -14,7 +14,7 @@
       "directorBirthDate": "1963-01-14",
       "filmName": "Monument Without a Leader",
       "filmReleaseDate": "2001-03-15",
-      "filmGenre": "FANTASY"
+      "filmGenre": "Fantasy"
     },
     {
       "directorFirstName": "Gavrel",
@@ -22,7 +22,7 @@
       "directorBirthDate": "1960-12-08",
       "filmName": "Beasts and Ghosts",
       "filmReleaseDate": "1997-12-12",
-      "filmGenre": "HORROR"
+      "filmGenre": "Horror"
     },
     {
       "directorFirstName": "Gavrel",
@@ -30,7 +30,7 @@
       "directorBirthDate": "1960-12-08",
       "filmName": "Dog of Tomorrow",
       "filmReleaseDate": "1998-01-16",
-      "filmGenre": "HUMOR"
+      "filmGenre": "Humor"
     },
     {
       "directorFirstName": "Gavrel",
@@ -38,7 +38,7 @@
       "directorBirthDate": "1960-12-08",
       "filmName": "Celebrate the West",
       "filmReleaseDate": "2003-06-10",
-      "filmGenre": "MYSTERY"
+      "filmGenre": "Mystery"
     }
   ],
   "pageable": {
