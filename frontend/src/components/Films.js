@@ -47,6 +47,7 @@ class Films extends Component {
         } else {
             filter.size = currentSize
         }
+        filter.page = 0
         const result = await getFilmsData(filter)
         this.setState({filter: filter, data: result})
     }
